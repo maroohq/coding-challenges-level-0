@@ -4,9 +4,7 @@ def number_to_time(number):
         hour += 1
         number-=60
 
-    return  hour,number  
-
-hours,minutes = number_to_time(77)
+    print_time(hour,number) 
  
 def print_time (hours,minutes):
 
@@ -24,6 +22,6 @@ def print_time (hours,minutes):
 
     elif hours !=1 and minutes == 1 :
         print (f"{hours} hours {minutes} minute")    
-    
 
-print_time(hours,minutes)
+number_to_time(77)
+
